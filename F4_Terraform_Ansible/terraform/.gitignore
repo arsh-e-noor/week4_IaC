@@ -1,0 +1,12 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+
+# Variables (agar future me secrets use karo)
+*.tfvars
+!terraform.tfvars
+
+# Crash logs
+crash.log
